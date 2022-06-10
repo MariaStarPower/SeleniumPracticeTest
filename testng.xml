@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Validating the links in the navigation bar">
+  	<classes>
+  		<class name="automation.NavBarTest"/>
+  	</classes>
+  </test>
+  <test name="Validating the features in the main section of the home page">
+  	<classes>
+  		<class name="automation.HomePageTest"/>
+  	</classes>
+  </test>
+  <test name="Validating the web tables on the home page">
+  	<classes>
+  		<class name="automation.WebTablesTest"/>
+  	</classes>
+  </test>
+  <test name="Validating the iframe section on the home page">
+  	<classes>
+  		<class name="automation.IFrameTest"/>
+  	</classes>
+  </test>
+  <test name="Validating the opening of new tabs">
+  	<classes>
+  		<class name="automation.SwitchTabTest"/>
+  	</classes>
+  </test>
+  <test name="Validating the opening of new windows">
+  	<classes>
+  		<class name="automation.SwitchWindowTest"/>
+  	</classes>
+  </test>
+  <test name="Validating the links in the footer section">
+  	<classes>
+  		<class name="automation.FooterLinksTest"/>
+  	</classes>
+  </test>
+</suite>

@@ -1,6 +1,7 @@
 package automation;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.Alert;
@@ -23,6 +24,7 @@ public class HomePageTest extends BaseClass {
 	public void initialize() throws IOException {
 		
 		driver = initializeWebDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(prop.getProperty("url"));
 		System.out.println(driver.getTitle());
 	}

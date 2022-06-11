@@ -2,7 +2,6 @@ package automation;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -46,8 +45,6 @@ public class BaseClass {
 			System.setProperty("webdriver.gecko.driver", "/Users/maria/Downloads/geckodriver");
 			driver = new FirefoxDriver();
 		}
-		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		return driver;
 		

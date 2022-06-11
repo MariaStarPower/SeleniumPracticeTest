@@ -1,6 +1,7 @@
 package automation;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -24,6 +25,7 @@ public class FooterLinksTest extends BaseClass {
 	public void initialize() throws IOException {
 		
 		driver = initializeWebDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(prop.getProperty("url"));
 		System.out.println(driver.getTitle());
 	}

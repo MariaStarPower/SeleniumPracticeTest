@@ -1,6 +1,7 @@
 package automation;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ public class NavBarTest extends BaseClass {
 	public void initialize() throws IOException {
 		
 		driver = initializeWebDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(prop.getProperty("url"));
 		System.out.println(driver.getTitle());
 	}

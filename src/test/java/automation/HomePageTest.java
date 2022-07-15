@@ -1,40 +1,16 @@
 package automation;
 
-import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class HomePageTest extends BaseClass {
-	
-	public WebDriver driver;
-	
-	@BeforeTest
-	// Initialize the WebDriver
-	public void initialize() throws IOException {
-		
-		driver = initializeWebDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get(prop.getProperty("url"));
-		System.out.println(driver.getTitle());
-	}
-	
-	@AfterTest
-	// Close the browser
-	public void closeDown() {
-		
-		driver.quit();
-	}
 	
 	@Test
 	// Verify that the radio buttons are working
@@ -49,16 +25,18 @@ public class HomePageTest extends BaseClass {
 		
 		for(int i = 0; i < labels.size(); i++) {
 			
-			for(int j = 0; j < radioButtons.size(); j++) {
-				
-				radioButton = radioButtons.get(j);
-				radioButton.click();
-				
-				Assert.assertTrue(radioButton.isSelected());
-			}
 			labelText = labels.get(i).getText();
 			System.out.println(labelText);
 		}
+			
+		for(int j = 0; j < radioButtons.size(); j++) {
+				
+			radioButton = radioButtons.get(j);
+			radioButton.click();
+			Assert.assertTrue(radioButton.isSelected());
+		}
+			
+			
 		
 	}
 	
@@ -121,16 +99,21 @@ public class HomePageTest extends BaseClass {
 		WebElement checkBox;
 		String checkBoxLabel;
 		
-		for(int i = 0; i < checkBoxLabels.size(); i++) {
+		int i, j;
+		
+		for(i = 0; i < checkBoxLabels.size(); i++) {
 			
-			for(int j = 0; j < checkBoxes.size(); j++) {
-				
-				checkBox = checkBoxes.get(j);
-				checkBox.click();
-			}
 			checkBoxLabel = checkBoxLabels.get(i).getText();
 			System.out.println(checkBoxLabel);
 		}
+		
+		for(j = 0; j < checkBoxes.size(); j++) {
+			
+			checkBox = checkBoxes.get(j);
+			checkBox.click();
+			Assert.assertTrue(checkBox.isSelected());
+		}
+		
 		checkBoxes.clear();
 		
 		boolean checkBoxesUnchecked = checkBoxes.isEmpty();

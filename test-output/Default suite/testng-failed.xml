@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.HomePageTest">
+      <class name="automation.NavBarTest">
         <methods>
-          <include name="initialize"/>
+          <include name="back"/>
           <include name="closeDown"/>
-          <include name="checkBoxExample"/>
+          <include name="initializeDriver"/>
+          <include name="validateClickableLogo"/>
+          <include name="validateHomeButton"/>
+          <include name="validateBlinkingText"/>
         </methods>
-      </class> <!-- automation.HomePageTest -->
+      </class> <!-- automation.NavBarTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="150.828" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="147.045" tests="15" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="/Users/maria/Downloads/chromedriver"/>
+    <property name="webdriver.chrome.driver" value="/Users/maria/.cache/selenium/chromedriver/mac64/103.0.5060.53/chromedriver"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/maria/eclipse-workspace/PracticeTest/target/test-classes:/Users/maria/eclipse-workspace/PracticeTest/target/classes:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-java/4.2.1/selenium-java-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-api/4.2.1/selenium-api-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.2.1/selenium-chrome-driver-4.2.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/maria/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/maria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/maria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/maria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/maria/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/maria/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.2.1/selenium-chromium-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-json/4.2.1/selenium-json-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.2.1/selenium-devtools-v100-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.2.1/selenium-devtools-v101-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.2.1/selenium-devtools-v102-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.2.1/selenium-devtools-v85-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.2.1/selenium-edge-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.2.1/selenium-firefox-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.2.1/selenium-ie-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.2.1/selenium-opera-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.2.1/selenium-remote-driver-4.2.1.jar:/Users/maria/.m2/repository/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.77.Final/netty-transport-classes-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.77.Final/netty-transport-native-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-api/1.14.0/opentelemetry-api-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-context/1.14.0/opentelemetry-context-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.14.0/opentelemetry-exporter-logging-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.14.0/opentelemetry-sdk-metrics-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.14.0-alpha/opentelemetry-sdk-logs-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.14.0/opentelemetry-sdk-common-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.14.0/opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.14.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.14.0/opentelemetry-sdk-trace-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.14.0/opentelemetry-sdk-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/maria/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/maria/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/maria/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/maria/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/maria/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/maria/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-http/4.2.1/selenium-http-4.2.1.jar:/Users/maria/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.2.1/selenium-safari-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-support/4.2.1/selenium-support-4.2.1.jar:/Users/maria/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/maria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/maria/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/maria/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/maria/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
+    <property name="java.class.path" value="/Users/maria/eclipse-workspace/PracticeTest/target/test-classes:/Users/maria/eclipse-workspace/PracticeTest/target/classes:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-java/4.2.1/selenium-java-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-api/4.2.1/selenium-api-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.2.1/selenium-chrome-driver-4.2.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/maria/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/maria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/maria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/maria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/maria/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/maria/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.2.1/selenium-chromium-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-json/4.2.1/selenium-json-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.2.1/selenium-devtools-v100-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.2.1/selenium-devtools-v101-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.2.1/selenium-devtools-v102-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.2.1/selenium-devtools-v85-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.2.1/selenium-edge-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.2.1/selenium-firefox-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.2.1/selenium-ie-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.2.1/selenium-opera-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.2.1/selenium-remote-driver-4.2.1.jar:/Users/maria/.m2/repository/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.77.Final/netty-transport-classes-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.77.Final/netty-transport-native-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-api/1.14.0/opentelemetry-api-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-context/1.14.0/opentelemetry-context-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.14.0/opentelemetry-exporter-logging-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.14.0/opentelemetry-sdk-metrics-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.14.0-alpha/opentelemetry-sdk-logs-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.14.0/opentelemetry-sdk-common-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.14.0/opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.14.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.14.0/opentelemetry-sdk-trace-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.14.0/opentelemetry-sdk-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/maria/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/maria/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/maria/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/maria/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/maria/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/maria/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-http/4.2.1/selenium-http-4.2.1.jar:/Users/maria/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.2.1/selenium-safari-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-support/4.2.1/selenium-support-4.2.1.jar:/Users/maria/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/maria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/maria/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/maria/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/maria/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/maria/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.1/webdrivermanager-5.2.1.jar:/Users/maria/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/maria/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/maria/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/maria/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/maria/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/maria/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/maria/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/maria/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/maria/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/maria/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/maria/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/maria/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/maria/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/maria/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/maria/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/maria/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -14,9 +14,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.3.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/maria/eclipse-workspace/PracticeTest/target/surefire/surefirebooter-20220610131659020_3.jar /Users/maria/eclipse-workspace/PracticeTest/target/surefire 2022-06-10T13-16-58_019-jvmRun1 surefire-20220610131659020_1tmp surefire_0-20220610131659020_2tmp"/>
+    <property name="sun.java.command" value="/Users/maria/eclipse-workspace/PracticeTest/target/surefire/surefirebooter-20220715142100880_3.jar /Users/maria/eclipse-workspace/PracticeTest/target/surefire 2022-07-15T14-21-00_601-jvmRun1 surefire-20220715142100880_1tmp surefire_0-20220715142100880_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/maria/eclipse-workspace/PracticeTest/target/test-classes:/Users/maria/eclipse-workspace/PracticeTest/target/classes:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-java/4.2.1/selenium-java-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-api/4.2.1/selenium-api-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.2.1/selenium-chrome-driver-4.2.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/maria/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/maria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/maria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/maria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/maria/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/maria/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.2.1/selenium-chromium-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-json/4.2.1/selenium-json-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.2.1/selenium-devtools-v100-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.2.1/selenium-devtools-v101-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.2.1/selenium-devtools-v102-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.2.1/selenium-devtools-v85-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.2.1/selenium-edge-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.2.1/selenium-firefox-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.2.1/selenium-ie-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.2.1/selenium-opera-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.2.1/selenium-remote-driver-4.2.1.jar:/Users/maria/.m2/repository/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.77.Final/netty-transport-classes-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.77.Final/netty-transport-native-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-api/1.14.0/opentelemetry-api-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-context/1.14.0/opentelemetry-context-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.14.0/opentelemetry-exporter-logging-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.14.0/opentelemetry-sdk-metrics-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.14.0-alpha/opentelemetry-sdk-logs-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.14.0/opentelemetry-sdk-common-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.14.0/opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.14.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.14.0/opentelemetry-sdk-trace-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.14.0/opentelemetry-sdk-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/maria/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/maria/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/maria/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/maria/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/maria/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/maria/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-http/4.2.1/selenium-http-4.2.1.jar:/Users/maria/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.2.1/selenium-safari-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-support/4.2.1/selenium-support-4.2.1.jar:/Users/maria/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/maria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/maria/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/maria/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/maria/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/maria/eclipse-workspace/PracticeTest/target/test-classes:/Users/maria/eclipse-workspace/PracticeTest/target/classes:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-java/4.2.1/selenium-java-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-api/4.2.1/selenium-api-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.2.1/selenium-chrome-driver-4.2.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/maria/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/maria/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/maria/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/maria/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/maria/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/maria/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/maria/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.2.1/selenium-chromium-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-json/4.2.1/selenium-json-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v100/4.2.1/selenium-devtools-v100-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v101/4.2.1/selenium-devtools-v101-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.2.1/selenium-devtools-v102-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.2.1/selenium-devtools-v85-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.2.1/selenium-edge-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.2.1/selenium-firefox-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.2.1/selenium-ie-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.2.1/selenium-opera-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.2.1/selenium-remote-driver-4.2.1.jar:/Users/maria/.m2/repository/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.77.Final/netty-transport-classes-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.77.Final/netty-transport-native-kqueue-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/Users/maria/.m2/repository/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-api/1.14.0/opentelemetry-api-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-context/1.14.0/opentelemetry-context-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.14.0/opentelemetry-exporter-logging-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.14.0/opentelemetry-sdk-metrics-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.14.0-alpha/opentelemetry-sdk-logs-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.14.0/opentelemetry-sdk-common-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.14.0/opentelemetry-sdk-extension-autoconfigure-spi-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.14.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.14.0/opentelemetry-sdk-trace-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.14.0/opentelemetry-sdk-1.14.0.jar:/Users/maria/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha.jar:/Users/maria/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/maria/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/maria/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/maria/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/maria/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/maria/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/maria/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/maria/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/maria/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-http/4.2.1/selenium-http-4.2.1.jar:/Users/maria/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.2.1/selenium-safari-driver-4.2.1.jar:/Users/maria/.m2/repository/org/seleniumhq/selenium/selenium-support/4.2.1/selenium-support-4.2.1.jar:/Users/maria/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/maria/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/maria/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/maria/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/maria/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/maria/.m2/repository/io/github/bonigarcia/webdrivermanager/5.2.1/webdrivermanager-5.2.1.jar:/Users/maria/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/maria/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/maria/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/maria/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/maria/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/maria/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/maria/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/maria/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/maria/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/maria/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/maria/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/maria/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/maria/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/maria/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/maria/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/maria/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/maria/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/maria"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/maria/eclipse-workspace/PracticeTest/target/surefire/surefirebooter-20220610131659020_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/maria/eclipse-workspace/PracticeTest/target/surefire/surefirebooter-20220715142100880_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+8-LTS-111"/>
     <property name="user.name" value="maria"/>
@@ -53,32 +53,152 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="validateHeaderNavLinks" classname="automation.NavBarTest" time="5.982">
+  <testcase name="validateBlinkingText" classname="automation.NavBarTest" time="1.143">
+    <failure message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;Marias-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:8d1:4110:e4ef:5840%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;17.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [15018ee9ee7aebbdc79fd6649c1cba95, clickElement {id=93ff4527-79b1-4274-9358-f80e3f995b61}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/rf/b62c7cm55x1...}, goog:chromeOptions: {debuggerAddress: localhost:50635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50635/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (15018ee9ee7aebbdc79fd6649c1cba95)] -&gt; link text: Free Access to InterviewQues/ResumeAssistance/Material]&#10;Session ID: 15018ee9ee7aebbdc79fd6649c1cba95" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'Marias-MacBook-Pro.local', ip: 'fe80:0:0:0:8d1:4110:e4ef:5840%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15018ee9ee7aebbdc79fd6649c1cba95, clickElement {id=93ff4527-79b1-4274-9358-f80e3f995b61}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/rf/b62c7cm55x1...}, goog:chromeOptions: {debuggerAddress: localhost:50635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50635/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (15018ee9ee7aebbdc79fd6649c1cba95)] -> link text: Free Access to InterviewQues/ResumeAssistance/Material]
+Session ID: 15018ee9ee7aebbdc79fd6649c1cba95
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at automation.NavBarTest.validateBlinkingText(NavBarTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
     <system-out><![CDATA[chrome
 https://rahulshettyacademy.com/AutomationPractice/
 Practice Page
-https://www.rahulshettyacademy.com/
-Rahul Shetty Academy
-https://rahulshettyacademy.com/documents-request
-Rahul Shetty Academy
-https://www.rahulshettyacademy.com/
-Rahul Shetty Academy
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 65401
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51714
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1654892228.242][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 1:17:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 2:21:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 10, 2022 1:17:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 102
+Jul 15, 2022 2:21:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 15, 2022 2:21:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="checkBoxExample" classname="automation.HomePageTest" time="0.488">
+  <testcase name="validateClickableLogo" classname="automation.NavBarTest" time="0.977">
+    <system-out><![CDATA[https://www.rahulshettyacademy.com/
+Rahul Shetty Academy
+]]></system-out>
+  </testcase>
+  <testcase name="validateHomeButton" classname="automation.NavBarTest" time="0.397">
+    <failure message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;Marias-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:8d1:4110:e4ef:5840%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.4&apos;, java.version: &apos;17.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [15018ee9ee7aebbdc79fd6649c1cba95, clickElement {id=24189667-00d1-42ac-a476-994b0bf53855}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/rf/b62c7cm55x1...}, goog:chromeOptions: {debuggerAddress: localhost:50635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50635/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (15018ee9ee7aebbdc79fd6649c1cba95)] -&gt; xpath: //button[contains(text(),&apos;Home&apos;)]]&#10;Session ID: 15018ee9ee7aebbdc79fd6649c1cba95" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'Marias-MacBook-Pro.local', ip: 'fe80:0:0:0:8d1:4110:e4ef:5840%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.4', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15018ee9ee7aebbdc79fd6649c1cba95, clickElement {id=24189667-00d1-42ac-a476-994b0bf53855}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: /var/folders/rf/b62c7cm55x1...}, goog:chromeOptions: {debuggerAddress: localhost:50635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50635/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (15018ee9ee7aebbdc79fd6649c1cba95)] -> xpath: //button[contains(text(),'Home')]]
+Session ID: 15018ee9ee7aebbdc79fd6649c1cba95
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at automation.NavBarTest.validateHomeButton(NavBarTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+  </testcase>
+  <testcase name="checkBoxExample" classname="automation.HomePageTest" time="0.341">
     <system-out><![CDATA[chrome
 https://rahulshettyacademy.com/AutomationPractice/
 Practice Page
@@ -86,116 +206,123 @@ Option1
 Option2
 Option3
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 49244
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50944
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1654892250.237][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 1:17:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 2:21:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 10, 2022 1:17:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 102
+Jul 15, 2022 2:21:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 15, 2022 2:21:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="dropDownExample" classname="automation.HomePageTest" time="0.459">
+  <testcase name="dropDownExample" classname="automation.HomePageTest" time="0.471">
     <system-out><![CDATA[Select
 Option1
 Option2
 Option3
 ]]></system-out>
   </testcase>
-  <testcase name="elementDisplayedExample" classname="automation.HomePageTest" time="0.296">
+  <testcase name="elementDisplayedExample" classname="automation.HomePageTest" time="0.284">
     <system-out><![CDATA[Hi
 Hi
 ]]></system-out>
   </testcase>
-  <testcase name="mouseHoverExample" classname="automation.HomePageTest" time="1.235"/>
-  <testcase name="radioButtonExample" classname="automation.HomePageTest" time="0.518">
+  <testcase name="mouseHoverExample" classname="automation.HomePageTest" time="1.253"/>
+  <testcase name="radioButtonExample" classname="automation.HomePageTest" time="0.344">
     <system-out><![CDATA[Radio1
 Radio2
 Radio3
 ]]></system-out>
   </testcase>
-  <testcase name="suggestionClassExample" classname="automation.HomePageTest" time="0.437">
+  <testcase name="suggestionClassExample" classname="automation.HomePageTest" time="0.433">
     <system-out><![CDATA[United States (USA)
 ]]></system-out>
   </testcase>
-  <testcase name="switchToAlertExample" classname="automation.HomePageTest" time="0.735">
+  <testcase name="switchToAlertExample" classname="automation.HomePageTest" time="0.719">
     <system-out><![CDATA[Hello Maria, share this practice page and share your knowledge
 Hello Maria, Are you sure you want to confirm?
 Hello Maria, Are you sure you want to confirm?
 ]]></system-out>
   </testcase>
-  <testcase name="webTableExample" classname="automation.WebTablesTest" time="0.418">
+  <testcase name="webTableExample" classname="automation.WebTablesTest" time="0.325">
     <system-out><![CDATA[chrome
 https://rahulshettyacademy.com/AutomationPractice/
+Practice Page
 Selenium Webdriver with Java Basics + Advanced + Interview Guide
 296
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 52427
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 50962
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1654892270.229][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 1:17:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 2:21:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 10, 2022 1:17:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 102
+Jul 15, 2022 2:21:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 15, 2022 2:21:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="validateIFrame" classname="automation.IFrameTest" time="0.239">
+  <testcase name="validateIFrame" classname="automation.IFrameTest" time="0.14">
     <system-out><![CDATA[chrome
 https://rahulshettyacademy.com/AutomationPractice/
+Practice Page
 contact@rahulshettyacademy.com
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 57647
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 63372
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1654892284.665][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 1:18:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 2:22:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 10, 2022 1:18:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 102
+Jul 15, 2022 2:22:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 15, 2022 2:22:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="switchTabExample" classname="automation.SwitchTabTest" time="1.097">
+  <testcase name="switchTabExample" classname="automation.SwitchTabTest" time="0.998">
     <system-out><![CDATA[chrome
 https://rahulshettyacademy.com/AutomationPractice/
 Practice Page
 https://www.rahulshettyacademy.com/
 Rahul Shetty Academy
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 61322
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58822
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1654892303.268][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 1:18:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 2:22:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 10, 2022 1:18:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 102
+Jul 15, 2022 2:22:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 15, 2022 2:22:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="switchWindowExample" classname="automation.SwitchWindowTest" time="18.99">
+  <testcase name="switchWindowExample" classname="automation.SwitchWindowTest" time="18.732">
     <system-out><![CDATA[chrome
 https://rahulshettyacademy.com/AutomationPractice/
 Practice Page
 http://www.qaclickacademy.com/
 QA Click Academy | Selenium,Jmeter,SoapUI,Appium,Database testing,QA Training Academy
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 63825
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52276
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1654892318.315][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 1:18:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 2:22:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 10, 2022 1:18:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 102
+Jul 15, 2022 2:22:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 15, 2022 2:22:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
-  <testcase name="verifyFooterLinks" classname="automation.FooterLinksTest" time="3.599">
+  <testcase name="verifyFooterLinks" classname="automation.FooterLinksTest" time="3.937">
     <system-out><![CDATA[chrome
 https://rahulshettyacademy.com/AutomationPractice/
 Practice Page
@@ -206,15 +333,16 @@ Appium Mobile Automation Testing from Scratch + Frameworks Tutorial | Udemy
 The World's Most Popular API Testing Tool | SoapUI
 REST API Tutorial
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}) on port 63378
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64239
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1654892354.380][WARNING]: This version of ChromeDriver has not been tested with Chrome version 102.
-Jun 10, 2022 1:19:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 2:23:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jun 10, 2022 1:19:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 102
+Jul 15, 2022 2:23:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 15, 2022 2:23:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
 ]]></system-err>
   </testcase>
 </testsuite>

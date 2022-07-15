@@ -2,11 +2,16 @@ package automation;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	
@@ -36,18 +41,34 @@ public class BaseClass {
 		if(browserName.equals("chrome")) {
 			
 			// Execute in ChromeDriver
-			System.setProperty("webdriver.chrome.driver", "/Users/maria/Downloads/chromedriver");
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
 		else if (browserName.equals("firefox")){
 			
 			// Execute in FirefoxDriver
-			System.setProperty("webdriver.gecko.driver", "/Users/maria/Downloads/geckodriver");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
 		
 		return driver;
 		
 	}
-
+	
+	@BeforeTest
+	public void initializeDriver() throws IOException {
+		
+		driver = initializeWebDriver();
+		driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		System.out.println(driver.getTitle());
+	}
+	
+	@AfterTest
+	public void closeDown() {
+		
+		driver.quit();
+	}
+	
 }
